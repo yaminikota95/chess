@@ -1,3 +1,3 @@
 from piece import *
-class Queen(piece.Piece):
+class Queen(Piece):
     pass
