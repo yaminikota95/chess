@@ -12,4 +12,4 @@ class Knight(Piece):
                 next_pos.append((temp_i, temp_j))
         return next_pos
 
-    #comment
+    #comment neww
