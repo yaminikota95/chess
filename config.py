@@ -1,2 +1,4 @@
 BLACK = 0
 WHITE = 1
+WIDTH = 8
+HEIGHT = 8
