@@ -8,7 +8,6 @@ class Knight(Piece):
         for i,j in zip(x_offset, y_offset):
             temp_i = self.curr_pos[0]-i
             temp_j = self.curr_pos[1]-j
-            if temp_i < HEIGHT and temp_i >= 0 and\
-               temp_j < WIDTH and temp_j >= 0:
+            if temp_i < HEIGHT and temp_i >= 0 and temp_j < WIDTH and temp_j >= 0:
                 next_pos.append((temp_i, temp_j))
         return next_pos
